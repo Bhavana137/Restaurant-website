@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Special Offers - Tasty Bites Restaurant</title>
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial,sans-serif;
+}
+
+body{
+    background:#f8f5f0;
+}
+
+/* Navbar */
+
+.navbar{
+    background:#111;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:15px 60px;
+}
+
+.logo{
+    color:#f9a825;
+    font-size:28px;
+    font-weight:bold;
+}
+
+.logo span{
+    color:white;
+    font-size:14px;
+    display:block;
+}
+
+.nav-links{
+    list-style:none;
+    display:flex;
+}
+
+.nav-links li{
+    margin-left:30px;
+}
+
+.nav-links a{
+    text-decoration:none;
+    color:white;
+    font-weight:bold;
+}
+
+.nav-links a:hover{
+    color:#f9a825;
+}
+
+/* Offers Section */
+
+.offers{
+    padding:60px 20px;
+    text-align:center;
+}
+
+.offers h1{
+    font-size:45px;
+    color:#222;
+    margin-bottom:15px;
+}
+
+.offers p{
+    color:#666;
+    margin-bottom:40px;
+}
+
+.offer-container{
+    display:flex;
+    justify-content:center;
+    gap:25px;
+    flex-wrap:wrap;
+}
+
+.offer-box{
+    width:300px;
+    background:#222;
+    color:white;
+    padding:25px;
+    border-radius:12px;
+    box-shadow:0 4px 15px rgba(0,0,0,0.3);
+    transition:0.3s;
+}
+
+.offer-box:hover{
+    transform:translateY(-8px);
+}
+
+.offer-icon{
+    font-size:45px;
+    margin-bottom:15px;
+}
+
+.offer-box h2{
+    color:#f9a825;
+    margin-bottom:10px;
+}
+
+.offer-box p{
+    color:#ddd;
+}
+
+.tag{
+    background:red;
+    color:white;
+    padding:8px 15px;
+    border-radius:5px;
+    display:inline-block;
+    margin:10px 0;
+    font-size:14px;
+}
+
+.offer-box button{
+    background:#f9a825;
+    color:white;
+    border:none;
+    padding:10px 20px;
+    border-radius:5px;
+    cursor:pointer;
+    font-weight:bold;
+}
+
+.offer-box button:hover{
+    background:#d88a00;
+}
+
+</style>
+</head>
+
+<body>
+
+<!-- Navbar -->
+
+<nav class="navbar">
+
+<div class="logo">
+🍽 Tasty Bites
+<span>RESTAURANT</span>
+</div>
+
+<ul class="nav-links">
+<li><a href="index.html">Home</a></li>
+<li><a href="about.html">About</a></li>
+<li><a href="menu.html">Menu</a></li>
+<li><a href="gallery.html">Gallery</a></li>
+<li><a href="offers.html">Offers</a></li>
+<li><a href="reservation.html">Reservations</a></li>
+<li><a href="contact.html">Contact</a></li>
+</ul>
+
+</nav>
+
+<!-- Offers -->
+
+<section class="offers">
+
+<h1>Special Offers</h1>
+
+<p>Enjoy amazing discounts and exclusive deals.</p>
+
+<div class="offer-container">
+
+<div class="offer-box">
+<div class="offer-icon">🍕</div>
+<h2>20% OFF</h2>
+<p>On All Pizzas</p>
+<div class="tag">Every Monday</div><br>
+<button>Claim Offer</button>
+</div>
+
+<div class="offer-box">
+<div class="offer-icon">🍔</div>
+<h2>Combo Meal</h2>
+<p>Burger + Fries + Drink</p>
+<div class="tag">₹299 Only</div><br>
+<button>Order Now</button>
+</div>
+
+<div class="offer-box">
+<div class="offer-icon">🎁</div>
+<h2>Seasonal Offer</h2>
+<p>Flat 15% OFF</p>
+<div class="tag">On Desserts</div><br>
+<button>Get Discount</button>
+</div>
+
+<div class="offer-box">
+<div class="offer-icon">🍕</div>
+<h2>Buy 1 Get 1</h2>
+<p>On Medium Pizzas</p>
+<div class="tag">Weekend Special</div><br>
+<button>Claim Now</button>
+</div>
+
+<div class="offer-box">
+<div class="offer-icon">🥤</div>
+<h2>Free Drink</h2>
+<p>With Any Combo Meal</p>
+<div class="tag">Limited Time</div><br>
+<button>Avail Offer</button>
+</div>
+
+<div class="offer-box">
+<div class="offer-icon">🎂</div>
+<h2>Birthday Special</h2>
+<p>25% OFF on Cakes</p>
+<div class="tag">Birthday Week</div><br>
+<button>Get Offer</button>
+</div>
+
+</div>
+
+</section>
+
+</body>
+</html>
+
