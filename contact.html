@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact Us - Tasty Bites Restaurant</title>
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial,sans-serif;
+}
+
+body{
+    background:#f8f8f8;
+}
+
+/* Navbar */
+
+.navbar{
+    background:#111;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:15px 60px;
+}
+
+.logo{
+    color:#f9a825;
+    font-size:28px;
+    font-weight:bold;
+}
+
+.logo span{
+    color:white;
+    font-size:14px;
+    display:block;
+}
+
+.nav-links{
+    list-style:none;
+    display:flex;
+}
+
+.nav-links li{
+    margin-left:30px;
+}
+
+.nav-links a{
+    text-decoration:none;
+    color:white;
+    font-weight:bold;
+}
+
+.nav-links a:hover{
+    color:#f9a825;
+}
+
+/* Contact Heading */
+
+.contact{
+    text-align:center;
+    padding:50px 20px;
+}
+
+.contact h1{
+    font-size:40px;
+    color:#222;
+}
+
+.contact p{
+    color:#666;
+    margin-top:10px;
+}
+
+/* Contact Boxes */
+
+.contact-info{
+    width:90%;
+    margin:20px auto;
+    display:flex;
+    justify-content:center;
+    gap:20px;
+    flex-wrap:wrap;
+}
+
+.box{
+    width:220px;
+    background:white;
+    padding:20px;
+    text-align:center;
+    border-radius:10px;
+    box-shadow:0 2px 10px rgba(0,0,0,0.1);
+}
+
+.box h3{
+    color:#f9a825;
+    margin-bottom:10px;
+}
+
+.box p{
+    color:#555;
+    line-height:1.6;
+}
+
+.map-box iframe{
+    border:none;
+    border-radius:8px;
+}
+
+/* Form */
+
+.form-section{
+    width:80%;
+    margin:40px auto;
+    background:white;
+    padding:30px;
+    border-radius:10px;
+    box-shadow:0 2px 10px rgba(0,0,0,0.1);
+}
+
+.form-section h2{
+    text-align:center;
+    margin-bottom:20px;
+}
+
+input,
+textarea{
+    width:100%;
+    padding:12px;
+    margin:10px 0;
+    border:1px solid #ccc;
+    border-radius:5px;
+}
+
+button{
+    background:#f9a825;
+    color:white;
+    border:none;
+    padding:12px 25px;
+    border-radius:5px;
+    cursor:pointer;
+}
+
+button:hover{
+    background:#d88a00;
+}
+
+/* Footer */
+
+footer{
+    background:#111;
+    color:white;
+    padding:20px 40px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    flex-wrap:wrap;
+    margin-top:40px;
+}
+
+.social h4{
+    margin-bottom:10px;
+}
+
+.social a{
+    width:35px;
+    height:35px;
+    background:#444;
+    color:white;
+    border-radius:50%;
+    display:inline-flex;
+    justify-content:center;
+    align-items:center;
+    text-decoration:none;
+    margin-right:10px;
+}
+
+.social a:hover{
+    background:#f9a825;
+}
+
+.footer-logo{
+    color:#f9a825;
+    font-size:24px;
+    font-weight:bold;
+}
+
+.footer-text{
+    text-align:center;
+}
+
+</style>
+</head>
+
+<body>
+
+<nav class="navbar">
+
+<div class="logo">
+🍽 Tasty Bites
+<span>RESTAURANT</span>
+</div>
+
+<ul class="nav-links">
+<li><a href="index.html">Home</a></li>
+<li><a href="about.html">About</a></li>
+<li><a href="menu.html">Menu</a></li>
+<li><a href="gallery.html">Gallery</a></li>
+<li><a href="offers.html">Offers</a></li>
+<li><a href="reservation.html">Reservations</a></li>
+<li><a href="contact.html">Contact</a></li>
+</ul>
+
+</nav>
+
+<section class="contact">
+
+<h1>Contact Us</h1>
+
+<p>Feel free to contact us anytime.</p>
+
+</section>
+
+<section class="contact-info">
+
+<div class="box">
+<h3><i class="fas fa-phone"></i> Phone</h3>
+<p>+91 98765 43210</p>
+</div>
+
+<div class="box">
+<h3><i class="fas fa-envelope"></i> Email</h3>
+<p>info@tastybites.com</p>
+</div>
+
+<div class="box">
+<h3><i class="fas fa-location-dot"></i> Location</h3>
+<p>123 Food Street,<br>Flavor Town, India</p>
+</div>
+
+<div class="box">
+<h3><i class="fas fa-clock"></i> Opening Hours</h3>
+<p>Mon - Sun</p>
+<p>11:00 AM - 11:00 PM</p>
+</div>
+
+<div class="box map-box">
+<iframe
+src="https://maps.google.com/maps?q=Hyderabad&t=&z=13&ie=UTF8&iwloc=&output=embed"
+width="100%"
+height="120">
+</iframe>
+</div>
+
+</section>
+
+<section class="form-section">
+
+<h2>Send Us A Message</h2>
+
+<form>
+
+<input type="text" placeholder="Your Name">
+
+<input type="email" placeholder="Your Email">
+
+<input type="text" placeholder="Subject">
+
+<textarea rows="5" placeholder="Your Message"></textarea>
+
+<button type="submit">Send Message</button>
+
+</form>
+
+</section>
+
+<footer>
+
+<div class="social">
+<h4>Follow Us</h4>
+
+<a href="#"><i class="fab fa-facebook-f"></i></a>
+<a href="#"><i class="fab fa-instagram"></i></a>
+<a href="#"><i class="fab fa-twitter"></i></a>
+<a href="#"><i class="fab fa-youtube"></i></a>
+
+</div>
+
+<div class="footer-logo">
+🍽 Tasty Bites Restaurant
+</div>
+
+<div class="footer-text">
+© 2024 Tasty Bites Restaurant
+</div>
+
+</footer>
+
+</body>
+</html>
+
