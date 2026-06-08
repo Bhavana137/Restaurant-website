@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>About Us - Tasty Bites Restaurant</title>
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    background:#f8f8f8;
+}
+
+/* Navbar */
+.navbar{
+    background:#111;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:15px 60px;
+}
+
+.logo{
+    color:#f9a825;
+    font-size:28px;
+    font-weight:bold;
+}
+
+.logo span{
+    color:white;
+    font-size:14px;
+    display:block;
+}
+
+.nav-links{
+    list-style:none;
+    display:flex;
+}
+
+.nav-links li{
+    margin-left:30px;
+}
+
+.nav-links a{
+    text-decoration:none;
+    color:white;
+    font-weight:bold;
+}
+
+.nav-links a:hover{
+    color:#f9a825;
+}
+
+/* About Section */
+
+.about{
+    width:90%;
+    margin:60px auto;
+    display:flex;
+    align-items:center;
+    gap:40px;
+}
+
+.about-images{
+    display:flex;
+    gap:15px;
+}
+
+.about-images img{
+    width:220px;
+    height:300px;
+    object-fit:cover;
+    border-radius:10px;
+    box-shadow:0 4px 10px rgba(0,0,0,0.2);
+}
+
+.about-content{
+    flex:1;
+}
+
+.about-content h1{
+    font-size:45px;
+    color:#222;
+    margin-bottom:20px;
+}
+
+.about-content p{
+    color:#555;
+    line-height:1.8;
+    font-size:17px;
+    margin-bottom:15px;
+}
+
+.card{
+    background:white;
+    padding:20px;
+    margin-top:15px;
+    border-left:5px solid #f9a825;
+    box-shadow:0 2px 8px rgba(0,0,0,0.1);
+}
+
+.card h3{
+    color:#f9a825;
+    margin-bottom:10px;
+}
+
+/* Features */
+
+.features{
+    width:90%;
+    margin:40px auto;
+    display:flex;
+    justify-content:space-between;
+    gap:20px;
+}
+
+.feature-box{
+    background:white;
+    padding:20px;
+    text-align:center;
+    flex:1;
+    border-radius:8px;
+    box-shadow:0 2px 10px rgba(0,0,0,0.1);
+}
+
+.feature-box h3{
+    color:#f9a825;
+    margin-bottom:10px;
+}
+
+.feature-box p{
+    color:#555;
+    line-height:1.6;
+}
+
+</style>
+</head>
+
+<body>
+
+<!-- Navbar -->
+
+<nav class="navbar">
+
+    <div class="logo">
+        🍽 Tasty Bites
+        <span>RESTAURANT</span>
+    </div>
+
+    <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+    <li><a href="menu.html">Menu</a></li>
+    <li><a href="gallery.html">Gallery</a></li>
+    <li><a href="offers.html">Offers</a></li>
+    <li><a href="reservation.html">Reservations</a></li>
+    <li><a href="contact.html">Contact</a></li>
+</ul>
+    </ul>
+
+</nav>
+
+<!-- About Section -->
+
+<section class="about">
+
+    <div class="about-images">
+
+        <img src="dining.jpg.jpeg" alt="Restaurant">
+
+        <img src="Serving.jpg" alt="Food Serving">
+
+    </div>
+
+    <div class="about-content">
+
+        <h1>About Us</h1>
+
+        <p>
+            Tasty Bites Restaurant was founded with a passion for bringing
+            delicious, high-quality food to our customers. Our chefs use
+            fresh ingredients and authentic recipes to create unforgettable
+            dining experiences.
+        </p>
+
+        <p>
+            We believe that food is more than just a meal—it is a way to
+            bring people together. Whether it's a family gathering,
+            a celebration, or a casual dinner, we strive to make every
+            visit special.
+        </p>
+
+        <div class="card">
+            <h3>Our Mission</h3>
+
+            <p>
+                To deliver exceptional dining experiences with great food,
+                outstanding service, and warm hospitality.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>Our Specialities</h3>
+
+            <p>
+                Grilled Peri Peri, Italian Classics, Indian Fusion,
+                Seafood Delights, Burgers, Pizzas and Homemade Desserts.
+            </p>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- Features -->
+
+<section class="features">
+
+    <div class="feature-box">
+        <h3>Fresh Ingredients</h3>
+        <p>We use only fresh and high-quality ingredients in every dish.</p>
+    </div>
+
+    <div class="feature-box">
+        <h3>Expert Chefs</h3>
+        <p>Our experienced chefs prepare delicious meals with perfection.</p>
+    </div>
+
+    <div class="feature-box">
+        <h3>Best Service</h3>
+        <p>Friendly staff and excellent customer service for every guest.</p>
+    </div>
+
+</section>
+
+</body>
+</html>
