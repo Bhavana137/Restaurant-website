@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Our Menu - Tasty Bites Restaurant</title>
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial,sans-serif;
+}
+
+body{
+    background:#f8f5f0;
+}
+
+/* Navbar */
+
+.navbar{
+    background:#111;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:15px 60px;
+}
+
+.logo{
+    color:#f9a825;
+    font-size:28px;
+    font-weight:bold;
+}
+
+.logo span{
+    color:white;
+    font-size:14px;
+    display:block;
+}
+
+.nav-links{
+    list-style:none;
+    display:flex;
+}
+
+.nav-links li{
+    margin-left:30px;
+}
+
+.nav-links a{
+    text-decoration:none;
+    color:white;
+    font-weight:bold;
+}
+
+.nav-links a:hover{
+    color:#f9a825;
+}
+
+/* Menu */
+
+.menu{
+    width:90%;
+    margin:50px auto;
+}
+
+.menu-title{
+    text-align:center;
+    font-size:50px;
+    color:#222;
+    margin-bottom:50px;
+}
+
+.menu-container{
+    display:flex;
+    justify-content:space-between;
+    flex-wrap:wrap;
+    gap:20px;
+}
+
+.menu-box{
+    flex:1;
+    min-width:220px;
+    text-align:center;
+    padding:15px;
+    border-right:1px solid #ddd;
+}
+
+.menu-box:last-child{
+    border-right:none;
+}
+
+.menu-box img{
+    width:140px;
+    height:100px;
+    object-fit:cover;
+    border-radius:10px;
+    margin-bottom:15px;
+}
+
+.menu-box h3{
+    color:#d88a00;
+    margin-bottom:15px;
+    font-size:30px;
+}
+
+.menu-box ul{
+    list-style:none;
+}
+
+.menu-box ul li{
+    display:flex;
+    justify-content:space-between;
+    margin:12px 0;
+    color:#444;
+    font-size:18px;
+}
+
+</style>
+</head>
+
+<body>
+
+<!-- Navbar -->
+
+<nav class="navbar">
+
+<div class="logo">
+🍽 Tasty Bites
+<span>RESTAURANT</span>
+</div>
+
+<ul class="nav-links">
+<li><a href="index.html">Home</a></li>
+<li><a href="about.html">About</a></li>
+<li><a href="menu.html">Menu</a></li>
+<li><a href="gallery.html">Gallery</a></li>
+<li><a href="offers.html">Offers</a></li>
+<li><a href="reservation.html">Reservations</a></li>
+<li><a href="contact.html">Contact</a></li>
+</ul>
+
+</nav>
+
+<!-- Menu Section -->
+
+<section class="menu">
+
+<h1 class="menu-title">Our Menu</h1>
+
+<div class="menu-container">
+
+<!-- Starters -->
+
+<div class="menu-box">
+
+<img src="https://images.unsplash.com/photo-1547592180-85f173990554?w=300" alt="Soup">
+
+<h3>Starters</h3>
+
+<ul>
+<li><span>Tomato Soup</span><span>₹120</span></li>
+<li><span>Garlic Bread</span><span>₹150</span></li>
+<li><span>Cheese Balls</span><span>₹180</span></li>
+<li><span>Veg Spring Rolls</span><span>₹160</span></li>
+</ul>
+
+</div>
+
+<!-- Main Course -->
+
+<div class="menu-box">
+
+<img src="https://images.unsplash.com/photo-1514516345957-556ca7d90a29?w=300" alt="Chicken">
+
+<h3>Main Courses</h3>
+
+<ul>
+<li><span>Grilled Chicken</span><span>₹350</span></li>
+<li><span>Paneer Butter Masala</span><span>₹300</span></li>
+<li><span>Veg Biryani</span><span>₹280</span></li>
+<li><span>Seafood Pasta</span><span>₹380</span></li>
+</ul>
+
+</div>
+
+<!-- Desserts -->
+
+<div class="menu-box">
+
+<img src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=300" alt="Cake">
+
+<h3>Desserts</h3>
+
+<ul>
+<li><span>Chocolate Cake</span><span>₹150</span></li>
+<li><span>Tiramisu</span><span>₹180</span></li>
+<li><span>Ice Cream Sundae</span><span>₹120</span></li>
+<li><span>Gulab Jamun</span><span>₹100</span></li>
+</ul>
+
+</div>
+
+<!-- Drinks -->
+
+<div class="menu-box">
+
+<img src="https://images.unsplash.com/photo-1513558161293-cdaf765ed2fd?w=300" alt="Drinks">
+
+<h3>Drinks</h3>
+
+<ul>
+<li><span>Fresh Lime Soda</span><span>₹80</span></li>
+<li><span>Mojito</span><span>₹120</span></li>
+<li><span>Milkshake</span><span>₹150</span></li>
+<li><span>Cold Coffee</span><span>₹140</span></li>
+</ul>
+
+</div>
+
+</div>
+
+</section>
+
+</body>
+</html>
